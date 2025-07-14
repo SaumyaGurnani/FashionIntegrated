@@ -970,13 +970,13 @@ export const teeStyles = [
   {
     id: 1702,
     name: "Side Knot Tie",
-    image: "tee2.jpg",
+    image: "https://i.pinimg.com/736x/c5/a7/23/c5a723e0636ff1436cfd9e30f44c0f1d.jpg",
     difficulty: "Easy",
     occasion: "Trendy",
     tutorial: [
       "Gather tee fabric to one side",
       "Tie a simple knot",
-      "Style with high-waisted shorts",
+      "Style with high-waisted shorts or pencil skirt",
       "Add a cap",
       "Youthful and fun"
     ]
@@ -984,7 +984,7 @@ export const teeStyles = [
   {
     id: 1703,
     name: "Fold-In Crop Illusion",
-    image: "tee3.jpg",
+    image: "https://i.pinimg.com/1200x/be/44/8c/be448ccdaa71bc6a0e141d57a09c64fd.jpg",
     difficulty: "Medium",
     occasion: "Smart Casual",
     tutorial: [
@@ -998,7 +998,7 @@ export const teeStyles = [
   {
     id: 1704,
     name: "Off Shoulder Stretch",
-    image: "tee4.jpg",
+    image: "https://i.pinimg.com/1200x/64/f9/de/64f9decbd526a398d3c62befc2dc771c.jpg",
     difficulty: "Easy",
     occasion: "Relaxed",
     tutorial: [
@@ -1026,7 +1026,7 @@ export const teeStyles = [
   {
     id: 1706,
     name: "Sleeve Cuff Roll",
-    image: "tee6.jpg",
+    image: "https://i.pinimg.com/1200x/59/0f/d0/590fd0402c0c9e06a7c6436f9a361378.jpg",
     difficulty: "Easy",
     occasion: "Detail Oriented",
     tutorial: [
@@ -1040,7 +1040,7 @@ export const teeStyles = [
   {
     id: 1707,
     name: "Back Twist Tie",
-    image: "tee7.jpg",
+    image: "https://i.pinimg.com/736x/e5/25/f3/e525f3f64d3f287b92ceb92705460c9f.jpg",
     difficulty: "Medium",
     occasion: "Creative",
     tutorial: [

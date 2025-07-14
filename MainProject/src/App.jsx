@@ -20,25 +20,34 @@ const App = () => {
       const reader = new FileReader();
       reader.onload = (e) => {
         setUploadedImage(e.target.result);
-        analyzeImage();
+        analyzeImage(file); // Pass the file directly
       };
       reader.readAsDataURL(file);
     }
   };
 
-  const analyzeImage = () => {
+  const analyzeImage = async (file) => {
     setIsAnalyzing(true);
-    setTimeout(() => {
-      const types = [
-  'shirt', 'tee', 'croptop', 'tank', 'shrug', 'blazer',
-  'coat', 'shorts', 'pants', 'jeans', 'skirt', 'maxiskirt',
-  'mini', 'jumpsuit'
-];
-      const detected = types[Math.floor(Math.random() * types.length)];
-      setDetectedType(detected);
-      setIsAnalyzing(false);
-    }, 2000);
+
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      const res = await fetch('https://fashion-outfit-1.onrender.com/predict', {
+        method: 'POST',
+        body: formData,
+      });
+
+      const data = await res.json();
+      setDetectedType(data.sub_category); // Use the API's detected type
+    } catch (err) {
+      console.error('API Error:', err);
+      alert('Failed to analyze image.');
+    }
+
+    setIsAnalyzing(false);
   };
+
 
   const handleReset = () => {
     setUploadedImage(null);
