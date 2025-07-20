@@ -1,19 +1,14 @@
-# FashionStylist
-This is an application which suggests styles for the clothing item uploaded
-EfficientNet-b0 image classifier (super + sub-category, dual head)
-# StyleGenius - AI-Powered Fashion Styling Assistant
+# StyleGenius : AI-Powered Fashion Styling Assistant
 
 
 
 ## Overview
 
-StyleGenius is an AI-powered fashion styling web application that identifies clothing items from uploaded images and provides personalized styling recommendations with step-by-step tutorials.
-
-**[Project Link](https://fashion-integrated.vercel.app/)**
+StyleGenius is an AI-powered fashion styling web application that identifies clothing items from uploaded images and provides personalized styling hacks and recommendations with step-by-step tutorials.
 
 ## Demo Video
 
-
+https://github.com/user-attachments/assets/72ff02b6-a52f-4d68-aa29-b1ef8f7dd59b
 
 ## Features
 
@@ -26,7 +21,7 @@ StyleGenius is an AI-powered fashion styling web application that identifies clo
 ### Frontend
 - **React** 
 - **Tailwind CSS** 
-- **Lucide React** - Icon library
+- **Lucide React** 
 
 ### Backend & AI
 - **Python** 
@@ -40,7 +35,7 @@ StyleGenius is an AI-powered fashion styling web application that identifies clo
 
 ## Supported Clothing Types
 
-- shirt, tees, tank, croptop
+- shirt, t-shirt, tanktop, croptop
 - pants, jeans, shorts  
 - mini, jumpsuit
 - blazer, shrug
